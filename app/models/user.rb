@@ -9,11 +9,8 @@ class User < ApplicationRecord
 
   validates :nickname, presence: true
 
-  after_create :create_avatar
-
-  private
-
-  def create_avatar
-    self.avatar_url = "http://loremflickr.com/280/280/#{nickname}"
+  before_create do |user|
+    user.avatar_url = "http://loremflickr.com/280/280/#{user.nickname}" unless user.avatar_url
   end
+
 end

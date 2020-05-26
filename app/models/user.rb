@@ -7,6 +7,8 @@ class User < ApplicationRecord
   has_many :messages
   has_many :chatrooms, through: :messages
 
+  validates :nickname, presence: true
+
   after_create :create_avatar
 
   private

@@ -14,6 +14,6 @@ class User < ApplicationRecord
   private
 
   def create_avatar
-    self.avatar = "http://loremflickr.com/280/280/#{nickname}"
+    self.avatar_url = "http://loremflickr.com/280/280/#{nickname}"
   end
 end

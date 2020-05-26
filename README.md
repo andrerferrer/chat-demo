@@ -36,4 +36,7 @@ Right now, we already have chatrooms working!
 
 TBD
 
+#### 1.3. Push it to production!
+
+
 ## Troubleshooting

@@ -1,7 +1,7 @@
 <h1>#<%= @chatroom.name %></h1>
 <div id="messages" data-chatroom-id="<%= @chatroom.id %>">
   <% @chatroom.messages.each do |message| %>
-    <%= render 'chatrooms/partials/message', message: message %>
+    <%= render 'messages/message', message: message %>
   <% end %>
 </div>
 

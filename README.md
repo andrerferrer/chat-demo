@@ -1,5 +1,5 @@
 ## Goal
-This is an app to teach how to implement a chat in RoRails.
+This is a demo app to teach how to implement a chat in RoR.
 We'll be using WebSockets and ActionCable
 
 ## How to
@@ -33,6 +33,7 @@ Right now, we already have chatrooms working!
 ```
 
 * Prepare the JS to handle it accordingly
+
 TBD
 
 ## Troubleshooting

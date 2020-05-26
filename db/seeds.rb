@@ -19,6 +19,6 @@ puts "Create Chatrooms"
 Chatroom.create name: "general"
 
 puts "Create Users"
-User.create email: "jack@sparrow.com", password: '123456'
-User.create email: "elizabeth@swann.com", password: '123456'
+User.create email: "jack@sparrow.com", nickname: "jack sparrow", password: '123456'
+User.create email: "elizabeth@swann.com", nickname: "elizabeth swann", password: '123456'
 

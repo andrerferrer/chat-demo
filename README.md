@@ -34,9 +34,23 @@ Right now, we already have chatrooms working!
 
 * Prepare the JS to handle it accordingly
 
-TBD
+TBD. For now, check [how to implement it](https://github.com/andrerferrer/chat-demo/blob/master/app/javascript/channels/init_chatroom.js) and [how to make it run](https://github.com/andrerferrer/chat-demo/blob/master/app/javascript/packs/application.js)
 
 #### 1.3. Push it to production!
+
+Under Construction
+```
+                           ___
+                            {-)   |\
+                       [m,].-"-.   /
+      [][__][__]         \(/\__/\)/
+      [__][__][__][__]~~~~  |  |
+      [][__][__][__][__][] /   |
+      [__][__][__][__][__]| /| |
+      [][__][__][__][__][]| || |  ~~~~
+      [__][__][__][__][__]__,__,  \__/
+```
+[source](https://asciiart.website/index.php?art=people/occupations/builders)
 
 
 ## Troubleshooting

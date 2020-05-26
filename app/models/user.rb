@@ -6,4 +6,12 @@ class User < ApplicationRecord
 
   has_many :messages
   has_many :chatrooms, through: :messages
+
+  after_create :create_avatar
+
+  private
+
+  def create_avatar
+    self.avatar = "http://loremflickr.com/280/280/#{nickname}"
+  end
 end

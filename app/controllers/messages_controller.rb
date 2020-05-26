@@ -8,6 +8,7 @@ class MessagesController < ApplicationController
 
     if @message.save
       redirect_to chatroom_path(@chatroom)
+      broadcast(@chatroom, @message)
     else
       render 'chatrooms/show'
     end
@@ -17,5 +18,12 @@ class MessagesController < ApplicationController
 
   def strong_params
     params.require(:message).permit(:content)
+  end
+
+  def broadcast(chatroom, message)
+    ChatroomChannel.broadcast_to(
+      chatroom,
+      render_to_string(partial: "message", locals: { message: message })
+    )
   end
 end

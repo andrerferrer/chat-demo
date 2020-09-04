@@ -2,6 +2,8 @@
 This is a demo app to teach how to implement a chat in RoR.
 We'll be using WebSockets and ActionCable
 
+[You can also check my other demos](https://github.com/andrerferrer/dedemos/blob/master/README.md#ded%C3%A9mos).
+
 ## How to
 ### 1. Implement the Chat itself
 #### 1.1. Create a ChatRoom model and a Message model referencing User and ChatRoom

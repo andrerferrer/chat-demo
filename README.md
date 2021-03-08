@@ -52,7 +52,7 @@ Under Construction
       [][__][__][__][__][]| || |  ~~~~
       [__][__][__][__][__]__,__,  \__/
 ```
-[image source](https://asciiart.website/index.php?art=people/occupations/builders)
+[ascii art source](https://asciiart.website/index.php?art=people/occupations/builders)
 
 
 ## Troubleshooting
